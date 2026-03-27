@@ -43,10 +43,10 @@ const NavButton = styled(Button, {
 
 
 const navItems = [
-  { id: 'about', label: '👤 PERFIL', icon: '🧑‍🌾' },
-  { id: 'skills', label: '🎒 HABILIDADES', icon: '🎒' },
-  { id: 'projects', label: '🌾 COLHEITAS', icon: '🌾' },
-  { id: 'contact', label: '📬 CONTATO', icon: '✉️' },
+  { id: 'about', label: 'PERFIL', icon: '🧑‍🌾' },
+  { id: 'skills', label: ' HABILIDADES', icon: '🎒' },
+  { id: 'projects', label: 'COLHEITAS', icon: '🌾' },
+  { id: 'contact', label: 'CONTATO', icon: '✉️' },
 ] as const;
 
 export function BackpackNav({ activeSection, onSectionChange }: BackpackNavProps) {

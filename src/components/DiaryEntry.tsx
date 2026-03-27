@@ -59,7 +59,7 @@ export function DiaryEntry({ date, title, children, season = 'spring' }: DiaryEn
       <DateStamp>
         {seasonEmoji[season]} {date}
       </DateStamp>
-      <Typography variant="h6" sx={{ fontFamily: '"Press Start 2P", monospace', fontSize: '0.9rem', mb: 2 }}>
+      <Typography variant="h6" sx={{ fontFamily: '"Pixelify Sans", monospace', fontSize: '1.5rem', mb: 2 }}>
         {title}
       </Typography>
       <Divider sx={{ mb: 2, backgroundColor: '#E6D5B8' }} />

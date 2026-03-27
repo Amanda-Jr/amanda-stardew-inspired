@@ -41,23 +41,23 @@ export const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: '"Quicksand", "Inter", "Nunito", sans-serif',
+    fontFamily: '"Pixelify Sans", "Inter", "Nunito", sans-serif',
     h1: {
-      fontFamily: '"Press Start 2P", "Courier New", monospace',
+      fontFamily: '"Pixelify Sans", "Courier New", monospace',
       fontSize: '2rem',
       color: colors.earth,
     },
     h2: {
-      fontFamily: '"Press Start 2P", monospace',
+      fontFamily: '"Pixelify Sans", monospace',
       fontSize: '1.5rem',
       color: colors.grass,
     },
     body1: {
-      fontFamily: '"Quicksand", sans-serif',
+      fontFamily: 'Iosevka Charon Mono, sans-serif',
       lineHeight: 1.6,
     },
     button: {
-      fontFamily: '"Press Start 2P", monospace',
+      fontFamily: '"Pixelify Sans", monospace',
       fontSize: '0.7rem',
       textTransform: 'none',
     },
